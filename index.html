@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfólio pessoal de Gabriel — desenvolvedor e estudante UNINTER." />
+  <title>Gabriel | Portfólio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="dark">
+
+  <!-- ===== NAVBAR ===== -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a class="brand" href="#sobre">GB.</a>
+      <button class="hamburger" id="hamburger" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#sobre"   class="nav-link">Sobre mim</a></li>
+        <li><a href="#formacao" class="nav-link">Formação</a></li>
+        <li><a href="#portfolio" class="nav-link">Portfólio</a></li>
+        <li><a href="#contato" class="nav-link">Contato</a></li>
+        <!-- Botão de tema claro/escuro -->
+        <li>
+          <button id="theme-btn" class="theme-btn" aria-label="Alternar tema">
+            <span id="theme-icon">☀️</span>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== HERO / SOBRE MIM ===== -->
+  <section id="sobre" class="section hero">
+    <div class="hero-bg-orb orb1"></div>
+    <div class="hero-bg-orb orb2"></div>
+    <div class="container">
+      <div class="hero-content">
+        <p class="hero-greeting">Olá, eu sou</p>
+        <h1 class="hero-name">Gabriel Melo</h1>
+        <p class="hero-role">Estudante de Ciência de Dados</p>
+        <p class="hero-bio">
+          Apaixonado por tecnologia, resolução de problemas e aprendizado contínuo.
+          Atualmente cursando Ciência de Dados na <strong>UNINTER</strong>, focado em análise de dados
+          e boas práticas de programação. Nas horas vagas, gosto de games, leitura
+          de ficção científica e trilhas na natureza.
+        </p>
+        <div class="hero-tags">
+          <span class="tag">💻 Dev Web</span>
+          <span class="tag">🎮 Games</span>
+          <span class="tag">📚 Leitura</span>
+          <span class="tag">🥾 Trilhas</span>
+        </div>
+        <a href="#contato" class="btn-primary">Entrar em contato</a>
+      </div>
+      <div class="hero-avatar">
+        <div class="avatar-ring">
+          <div class="avatar-initials">GB</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FORMAÇÃO ===== -->
+  <section id="formacao" class="section">
+    <div class="container">
+      <h2 class="section-title">Formação</h2>
+      <p class="section-subtitle">Minha trajetória acadêmica e de aprendizado</p>
+
+      <div class="cards-grid">
+        <!-- Educação -->
+        <div class="card">
+          <div class="card-icon">🎓</div>
+          <h3>Ensino Superior</h3>
+          <p class="card-institution">UNINTER — Centro Universitário Internacional</p>
+          <p class="card-desc">Ciência de Dados</p>
+          <span class="badge">2023 – Cursando</span>
+        </div>
+
+        <!-- Ensino Médio -->
+        <div class="card">
+          <div class="card-icon">🏫</div>
+          <h3>Ensino Médio</h3>
+          <p class="card-institution">Colégio Estadual Dona Amélia Amado</p>
+          <p class="card-desc">Formação geral com ênfase em ciências exatas</p>
+          <span class="badge">Concluído 2022</span>
+        </div>
+
+        <!-- Cursos -->
+        <div class="card">
+          <div class="card-icon">📜</div>
+          <h3>Desenvolvimento Web</h3>
+          <p class="card-institution">Curso em vídeo / YouTube</p>
+          <p class="card-desc">HTML5, CSS3, JavaScript — 120 horas</p>
+          <span class="badge">2023</span>
+        </div>
+
+        <!-- Idiomas -->
+        <div class="card">
+          <div class="card-icon">🌐</div>
+          <h3>Inglês</h3>
+          <p class="card-institution">CCAA</p>
+          <p class="card-desc">Nível intermediário (B1) — leitura técnica avançada</p>
+          <span class="badge">Em andamento</span>
+        </div>
+
+        <!-- Certificados -->
+        <div class="card">
+          <div class="card-icon">🏅</div>
+          <h3>Python Básico</h3>
+          <p class="card-institution">DIO — Digital Innovation One</p>
+          <p class="card-desc">Lógica de programação com Python — 40 horas</p>
+          <span class="badge">2024</span>
+        </div>
+
+        <!-- Git -->
+        <div class="card">
+          <div class="card-icon">🔧</div>
+          <h3>Git & GitHub</h3>
+          <p class="card-institution">Udemy</p>
+          <p class="card-desc">Controle de versão e colaboração — 20 horas</p>
+          <span class="badge">2024</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PORTFÓLIO ===== -->
+  <section id="portfolio" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Portfólio</h2>
+      <p class="section-subtitle">Projetos que desenvolvi ao longo da minha jornada</p>
+
+      <div class="projects-grid">
+
+        <!-- Projeto 1 -->
+        <div class="project-card">
+          <div class="project-header p-header-1">
+            <span class="project-emoji">🌦️</span>
+          </div>
+          <div class="project-body">
+            <h3>App de Clima</h3>
+            <p>Aplicação que consome a API OpenWeatherMap e exibe temperatura,
+               umidade e previsão para qualquer cidade.</p>
+            <div class="project-tags">
+              <span class="ptag">HTML</span>
+              <span class="ptag">CSS</span>
+              <span class="ptag">JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com" target="_blank" rel="noopener" class="plink">
+                GitHub →
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Projeto 2 -->
+        <div class="project-card">
+          <div class="project-header p-header-2">
+            <span class="project-emoji">📝</span>
+          </div>
+          <div class="project-body">
+            <h3>Lista de Tarefas</h3>
+            <p>To-do list com persistência no LocalStorage, filtros por status
+               e drag-and-drop para reorganização.</p>
+            <div class="project-tags">
+              <span class="ptag">HTML</span>
+              <span class="ptag">CSS</span>
+              <span class="ptag">JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com" target="_blank" rel="noopener" class="plink">
+                GitHub →
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Projeto 3 -->
+        <div class="project-card">
+          <div class="project-header p-header-3">
+            <span class="project-emoji">🧮</span>
+          </div>
+          <div class="project-body">
+            <h3>Calculadora</h3>
+            <p>Calculadora com suporte a operações básicas, histórico de cálculos
+               e modo científico.</p>
+            <div class="project-tags">
+              <span class="ptag">HTML</span>
+              <span class="ptag">CSS</span>
+              <span class="ptag">JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com" target="_blank" rel="noopener" class="plink">
+                GitHub →
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Projeto 4 -->
+        <div class="project-card">
+          <div class="project-header p-header-4">
+            <span class="project-emoji">🎴</span>
+          </div>
+          <div class="project-body">
+            <h3>Jogo da Memória</h3>
+            <p>Jogo clássico de memória com animações CSS, contador de tentativas
+               e registro de recorde.</p>
+            <div class="project-tags">
+              <span class="ptag">HTML</span>
+              <span class="ptag">CSS</span>
+              <span class="ptag">JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com" target="_blank" rel="noopener" class="plink">
+                GitHub →
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTATO ===== -->
+  <section id="contato" class="section">
+    <div class="container">
+      <h2 class="section-title">Contato</h2>
+      <p class="section-subtitle">Vamos conversar! Preencha o formulário abaixo.</p>
+
+      <!-- Mensagem de sucesso (oculta por padrão) -->
+      <div id="success-msg" class="success-msg hidden" role="alert">
+        ✅ Mensagem enviada com sucesso! Entrarei em contato em breve.
+      </div>
+
+      <form id="contact-form" class="contact-form" novalidate>
+
+        <!-- Campo: Nome -->
+        <div class="form-group">
+          <label for="nome">Nome completo</label>
+          <input
+            type="text"
+            id="nome"
+            name="nome"
+            placeholder="Seu nome"
+            autocomplete="name"
+          />
+          <span class="field-error" id="error-nome"></span>
+        </div>
+
+        <!-- Campo: E-mail -->
+        <div class="form-group">
+          <label for="email">E-mail</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="usuario@dominio.com"
+            autocomplete="email"
+          />
+          <span class="field-error" id="error-email"></span>
+        </div>
+
+        <!-- Campo: Mensagem -->
+        <div class="form-group">
+          <label for="mensagem">Mensagem</label>
+          <textarea
+            id="mensagem"
+            name="mensagem"
+            rows="5"
+            placeholder="Escreva sua mensagem aqui..."
+          ></textarea>
+          <span class="field-error" id="error-mensagem"></span>
+        </div>
+
+        <button type="submit" class="btn-primary btn-submit" id="submit-btn">
+          Enviar mensagem
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <p>© 2025 Gabriel Barbosa — Feito com ❤️ e HTML, CSS e JS puros.</p>
+  </footer>
+
+  <!-- Modal de confirmação -->
+  <div id="modal" class="modal-overlay hidden" role="dialog" aria-modal="true">
+    <div class="modal-box">
+      <div class="modal-icon">🎉</div>
+      <h3>Mensagem enviada!</h3>
+      <p>Obrigado pelo contato. Responderei em breve.</p>
+      <button id="modal-close" class="btn-primary">Fechar</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
